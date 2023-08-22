@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Sale</title>
+
+    <link rel="stylesheet" href="style/styles.css">
+
+    <!-- Tailwind and Daisy UI CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind and Daisy UI CDN  -->
+  </head>
+  <body class="bg-[#F8F8F8]">
+<!-- Header section starts from -->
+    <header>
+      <section class="bg-[#F9F6E2] lg:w-full">
+        <div class="lg:flex  justify-center items-center   ">
+          <div class="lg:space-y-7 space-y-4 p-6">
+            <h3 class="text-2xl font-medium text-center">---SALE FEVER---</h3>
+            <h1 class="text-5xl font-bold max-[640px]:text-center max-[1024px]:text-center"> Purchase TK 200 or <br> above & get
+              <span class="text-[#E527B2]">20% off</span>
+            </h1>
+            <div class="flex items-center  gap-4 px-10 max-[640px]:justify-center mx-auto max-[1024px]:justify-center">
+              <h1 class="font-medium">Use Promo Code</h1>
+              <button class="bg-[#E527B2] px-6 py-2 text-white rounded-lg">SELL200</button>
+            </div>
+          </div>
+          <div>
+            <img src="./images/Summer 1.png" alt="Banner image">
+          </div>
+        </div>
+      </section>
+    </header>
+<!-- Header section ends from here -->
+
+<!-- Main section starts from here -->
+    <main class="max-w-screen-xl mx-auto mt-20 py-10 px-5">
+      <div class="grid grid-cols-3 max-[640px]:grid-cols-1 max-[1024px]:grid-cols-1 gap-5">
+        <div class="col-span-2">
+          <div>
+            <h2 class="mb-8 text-xl font-bold">Kitchenware</h2>
+            <div class="grid grid-cols-3 max-[640px]:grid-cols-1 gap-3">
+              <div onclick="handleClickBtn(this)" class="flex flex-col justify-center items-center rounded-lg py-10 space-y-3 bg-white">
+                <img class="w-28 bg-[#F8F8F8] px-3 py-3" src="./images/prod1.png" alt="Deal of the day fruits">
+                <div class="rating rating-lg rating-half w-36">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                </div>
+                <h4 class="text-l font-bold">K. Accessories</h4>
+                <p class="text-base text-[#12121299] font-medium">39.00 TK</p>
+              </div>
+            <div onclick="handleClickBtn(this)" class="flex flex-col justify-center items-center rounded-lg py-10 space-y-3 bg-white">
+                <img class="w-28 bg-[#F8F8F8]" src="./images/prod2.png" alt="Deal of the day fruits">
+                <div class="rating rating-lg rating-half w-36">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                </div>
+                <h4 class="text-l font-bold">K. Accessories</h4>
+                <p class="text-base text-[#12121299] font-medium">25.00 TK</p>
+              </div>
+            <div onclick="handleClickBtn(this)" class="flex flex-col justify-center items-center rounded-lg py-10 space-y-3 bg-white">
+                <img class="w-28 bg-[#F8F8F8]" src="./images/prod3.png" alt="Deal of the day fruits">
+                <div class="rating rating-lg rating-half w-36">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                </div>
+                <h4 class="text-l font-bold">Home Cooker</h4>
+                <p class="text-base text-[#12121299] font-medium">49.00 TK</p>
+              </div>
+            </div>
+          </div>
+          <div class="pb-6 pt-6">
+            <h2 class="mb-8 mt-8 text-xl font-bold">Sportswear</h2>
+            <div class="grid grid-cols-3 max-[640px]:grid-cols-1 gap-3">
+              <div onclick="handleClickBtn(this)" class="flex flex-col justify-center items-center rounded-lg py-10 space-y-3 bg-white">
+                <img class="w-28 bg-[#F8F8F8] px-3 py-3" src="./images/prod4.png" alt="Deal of the day fruits">
+                <div class="rating rating-lg rating-half w-36">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                </div>
+                <h4 class="text-l font-bold">Sports Back Cap</h4>
+                <p class="text-base text-[#12121299] font-medium">49.00 TK</p>
+              </div>
+            <div onclick="handleClickBtn(this)" class="flex flex-col justify-center items-center rounded-lg py-10 space-y-3 bg-white">
+                <img class="w-28 bg-[#F8F8F8]" src="./images/prod5.png" alt="Deal of the day fruits">
+                <div class="rating rating-lg rating-half w-36">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                </div>
+                <h4 class="text-l font-bold">Full Jersey Set</h4>
+                <p class="text-base text-[#12121299] font-medium">69.00 TK</p>
+              </div>
+            <div onclick="handleClickBtn(this)" class="flex flex-col justify-center items-center rounded-lg py-10 space-y-3 bg-white">
+                <img class="w-28 bg-[#F8F8F8]" src="./images/prod6.png" alt="Deal of the day fruits">
+                <div class="rating rating-lg rating-half w-36">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" checked />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-1" />
+                  <input type="radio" name="rating-10" class="bg-[#FFC107] mask mask-star-2 mask-half-2" />
+                </div>
+                <h4 class="text-l font-bold">Sports cates</h4>
+                <p class="text-base text-[#12121299] font-medium">159.00 TK</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cart column starts here -->
+        <div class="mt-11">
+          <div class="coupon-container bg-white p-6 my-4 rounded-lg">
+            <h3 class="text-l font-bold">Have coupon?</h3>
+            <div class="join pt-4">
+              <input id="couponInput" class="input input-bordered join-item" type="text" placeholder="Coupon code">
+              <button id="applyCoupon" disabled class="apply-btn px-6 py-3 text-white bg-[#E527B2]">Apply</button>
+            </div>
+          </div>
+          <div class="calculation-container bg-white p-6 my-4 rounded-lg">
+            <div class="cart-item-container pb-3">
+              <h3 class="text-l font-bold">Your selected items:</h3>
+              <div id="selected-items"></div>
+            </div>
+            <hr>
+            <div class="calculation pt-3">
+              <h3 class="text-l font-bold">Total price: <span id="total" class="text-gray-400">0</span><span class="text-gray-400">TK</span></h3>
+              <h3 class="text-l font-bold">Discount: <span id="discount" class="text-gray-400">0</span><span class="text-gray-400">TK</span></h3>
+              <h3 class="text-l font-bold">Total: <span id="finalTotal" class="text-gray-400">0</span><span class="text-gray-400">TK</span></h3>
+            </div>
+          </div>
+          <button id="makePurchase" disabled class="px-6 py-3 rounded-lg bg-[#E527B2] font-bold text-white" onclick="my_modal_8.showModal()">Make Purchase</button>
+        </div>
+        <!-- Cart column ends here -->
+      </div>
+  
+      <!-- Modal starts from here -->
+      <dialog id="my_modal_8" class="modal">
+        <form method="dialog" class="modal-box">
+  
+          <div class="flex flex-col justify-center items-center rounded-lg py-10 bg-white">
+            <img class="w-28" src="images/congo.png" alt="Deal of the day fruits">
+            <h4 class="text-3xl font-bold mt-10 mb-4">Congratulations</h4>
+            <p class="text-base text-[#12121299] font-medium">Your Purchase the product</p>
+            <button onclick="window.location.href='/index.html';" class="px-6 py-2 mt-10 rounded-lg bg-[#E527B2] font-bold text-white">Go Home</button>
+          </div>
+  
+          </div>
+        </form>
+      </dialog>
+      <!-- Modal ends here -->
+    </main>
+    <!-- Main section ends here -->
+
+    <!-- Script tag starts from here -->
+
+    <script src="js/cart.js"></script>
+
+  </body>
+</html>
